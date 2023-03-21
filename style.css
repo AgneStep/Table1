@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&family=Roboto:wght@300;500&family=Sono:wght@400;600&display=swap');
+
+*{ 
+
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    box-sizing: border-box ;
+    
+}
+
+td, th {
+    border: 2px solid rgb(255,166,2);
+    width: 250px;
+    height: 40px;
+}
+
+table{
+    margin:30px auto;
+    border-collapse: collapse;
+    border: 2px solid gold;
+    color: white;
+    font-weight: 400;
+    background: rgb(52, 2, 117);
+}
+
+th, td {
+    padding:20px;
+
+}
+
+.title {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    background: rgb(255,166,2);
+
+}
+.yellow{
+    background: rgb(214, 141, 6);
+}
